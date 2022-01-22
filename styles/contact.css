@@ -1,0 +1,217 @@
+.contact-section {
+    width: 1440px;
+}
+.contact-wrapper {
+    width: 1170px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EF6D58;
+    
+}
+
+.contact-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 100px;
+    overflow: hidden;
+}
+.contact-card-left {
+    width: 470px;
+}
+.contact-card-left h2 {
+    width: 368px;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
+    margin: 28px 0;
+    color: #ffffff;
+}
+
+.contact-card-left p {
+    width: 470px;
+    font-size: 16px;
+    margin-bottom: 34px;
+    color: rgba(255, 255, 255, 0.64);
+    line-height: 32px;
+}
+.contact-card-left .contactNow-btn {
+    width: 170px;
+    height: 48px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 9px rgba(57, 20, 0, 0.08);
+    background: #fff;
+    border: none;
+    font-weight: 600;
+}
+
+
+.contact-card-right {
+    width: 443px;
+    height: 431px;
+    position: relative;
+    margin-left: 30px;
+    
+}
+
+/* .contact-card-right .oval {
+    position: absolute;
+    bottom: 0;
+    left: 63px;
+}
+.bitmap-bg {
+    width: 246px;
+    height: 220px;
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+    background: #F7CC47;
+    z-index: 1;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.bitmap-bg .circle {
+    width: 246px;
+    height: 246px;
+    background: #F7CC47;
+    border-radius: 50%;
+    margin-top: -50%;
+}
+
+.bitmap-bg img {
+    position: absolute;
+    bottom: 0;
+}
+
+
+.stat {
+    position: absolute;
+    background: #fff;
+    width: 214px;
+    height: 112px;
+    bottom: 25%;
+    left: 10px;
+    z-index: 2;
+    border-radius: 6px;
+}
+.stat-circle {
+    width: 45px;
+    height: 45px;
+    background: #F7CC47;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    left: 17px;
+}
+.stat-rectangle {
+    width: 62px;
+    height: 14px;
+    background: #FFE4DF;
+    position: absolute;
+    top: 27px;
+    left: 83px;
+}
+.stat .rectangles {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+.stat .rectangles .rectangle {
+    width: 6px;
+    background: #FFE4DF;
+    border-radius: 3px;
+}
+.stat .rectangles .rectangle1, .rectangle6 {
+    height: 29px;
+    
+}
+.stat .rectangles .rectangle2 {
+    height: 34px;
+}
+.stat .rectangles .rectangle3 {
+    height: 38px;
+}
+.stat .rectangles .rectangle4 {
+    height: 31px;
+}
+.stat .rectangles .rectangle5 {
+    height: 25px;
+}
+.stat .rectangles .rectangle7 {
+    height: 25px;
+}
+
+
+
+.star {
+    width: 148px;
+    height: 148px;
+    position: absolute;
+    left: 10px;
+    top: 18px;
+    display: grid;
+    place-items: center;
+    background-image: url(/public/images/Star.png);
+}
+
+.star img {
+    width: 32px;
+    height: 32px;
+} */
+
+
+@media (max-width: 475px){
+    .contact-section {
+        width: 100%;
+        /* height: 736px; */
+    }
+    .contact-wrapper {
+        width: 90%;
+        border-radius: 10px;
+        
+    }
+    .contact-card {
+        
+        padding: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .contact-card-left {
+        width: 373px;
+        
+    }
+
+    .contact-card-left h2 {
+        width: 272px;
+        font-size: 40px;
+        line-height: 48px;
+        margin-left: 32px;
+    }
+    .contact-card-left p {
+        width: 272px;
+        margin-left: 32px;
+    }
+    .contactNow-btn {
+        margin-left: 32px;
+        margin-bottom: 32px;
+    }
+    .contact-card-right {
+        width: 373px;
+        height: 364px;
+        padding: 32px;
+        margin-left: 0;
+    }
+    .contact-card-right img {
+        width: 100%;
+    }
+    
+}

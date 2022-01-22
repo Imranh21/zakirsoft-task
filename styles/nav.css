@@ -1,0 +1,106 @@
+nav {
+    width: 1440px;
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+.nav-wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.logos {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    margin-right: 14px;
+}
+.poly1 {
+    position: absolute;
+}
+
+.brand h4 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+
+ul.links {
+    width: 515px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.contactBtn button {
+    width: 138px;
+    height: 48px;
+    text-transform: uppercase;
+    border: 1px solid rgba(104, 104, 104, 0.296);
+    border-radius: 6px;
+    font-weight: 900;
+    color: #fff;
+    background: none;
+}
+
+
+.hamburger {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+    border-radius: 6px;
+    display: none;
+}
+
+
+
+@media (max-width: 475px){
+    nav {
+        width: 100%;
+        
+    }
+    .nav-wrapper {
+        width: 90%;
+    }
+    .links {
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: -150%;
+        flex-direction: column;
+        background: rgb(255, 60, 60);
+        padding: 80px 0 20px;
+        
+    }
+    .links .link {
+        color: black;
+        padding: 10px  0;
+    }
+    .contactBtn {
+        position: absolute;
+        top: 70px;
+        left: -150%;
+    }
+    .contactBtn button {
+    color: rgb(12, 12, 12);
+
+    }
+    .hamburger {
+        display: grid;
+    }
+}
