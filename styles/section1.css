@@ -13,6 +13,7 @@
 
 .blog-card {
     width: 570px;
+    height: 336px;
     display: flex;
     flex-direction: column;
 }
